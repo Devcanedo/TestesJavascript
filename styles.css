@@ -1,0 +1,47 @@
+* {
+ padding: 0;
+ margin: 0;
+
+ box-sizing: border-box;
+}
+
+.div-principal {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+.modal {
+ display: none;
+ position: fixed;
+ z-index: 1;
+
+ left: 0;
+ right: 0;
+ width: 100%;
+ height: 100%;
+ overflow: auto;
+
+ background-color: rgba(0, 0, 0, 0.5);
+}
+
+.content {
+ background-color: #383636;
+ margin: 15% auto;
+ padding: 20px;
+ border-radius: 5px;
+ width: 70%;
+
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+.button {
+ padding: 10px 10px;
+ border: none;
+ background: rgb(240, 240, 28);
+ border-radius: 8px;
+
+ cursor: pointer;
+}
